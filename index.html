@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="app.js">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindX test</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h1>#todo</h1>
+            <div class="navbar">
+                <div>Tasks</div>
+                <div>Active</div>
+                <div>Completed</div>
+            </div>
+            <div class="row">
+
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button class="addButton" onclick="addTask()"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <ul id="list-container">
+
+            </ul>
+            <button class="deleteButton" onclick="deleteAll()"><i class="fa-solid fa-trash"></i></button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/103d7ccca3.js"></script>
+</body>
+
+</html>
+
+
+<!-- <div class="heading">
+            <h1>#todo</h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <div>All</div>
+                <div>Active</div>
+                <div>Complete</div>
+            </ul>
+        </div> -->

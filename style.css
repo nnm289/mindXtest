@@ -1,0 +1,196 @@
+* {
+    margin: 0px auto;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1cm;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.navbar {
+    text-align: center;
+}
+
+.navbar div {
+    display: inline-block;
+    padding: 30px 50px;
+}
+
+.navbar div:hover {
+    height: 30px;
+    border-radius: 5px;
+    border-bottom: 5px solid;
+    border-bottom-color: rgb(37, 60, 177);
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 15px;
+    padding-left: 20px;
+    height: 70px;
+    margin-bottom: 30px;
+
+}
+
+
+input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.addButton {
+    border: none;
+    outline: none;
+    padding: 16px 32px;
+    background: rgb(37, 60, 177);
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 70px;
+    width: 100px
+}
+
+i {
+    font-size: 40px;
+}
+
+ul li {
+    list-style: none;
+    font-size: 20px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+
+ul li::before {
+    content: "";
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+
+
+ul li.checked {
+    color: #9b9a9a;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    background-image: url(images/checked-modified.png);
+}
+
+
+ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li span:hover {
+    background: #dedede
+}
+
+
+.deleteButton {
+    background: red;
+    border: none;
+    outline: none;
+    padding: 16px 32px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 70px;
+    margin-left: 380px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .heading {
+    text-align: center;
+    margin-top: 100px;
+}
+.heading:hover{
+    text-decoration: dotted;
+}
+.menu{
+align-items: center;
+margin-left: 30%;
+}
+.menu div {
+    display: inline-block;
+    padding: 60px;
+    height: 10px;
+
+
+}
+
+/* .menu div:hover{
+    height: 30px;
+    border-radius: 5px;
+    border-bottom: 5px solid;
+    border-bottom-color: rgb(37, 60, 177);
+} */
